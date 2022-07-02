@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
+## Acadêmicos: Vinicius Henrique Schmitt Guapiano (viniciusguapiano@gmail.com), Sérgio Gabriel Werner Zimmermann (sergio-zimmermann22@hotmail.com). Itajaí, 2022
+
+Escopo: Para a realização desse trabalho escolhemos realizar um serviço web de gestão de tempo para pessoas com pouco tempo ou que simplesmente não conseguem manejá-lo corretamente. Como linguagem escolhemos o html, css, typescript no frontend, utilizando o framework angular e como backend: nodejs.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
