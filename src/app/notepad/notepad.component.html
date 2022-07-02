@@ -1,0 +1,20 @@
+<div style="width: 100% !important; text-align: center;">
+  <h2 style="font-size: 40px;">Notas</h2>
+  <div>
+    <button class="adicionarNota" routerLink="/criar-nota">Adicionar Nota</button>
+  </div>
+</div>
+<div>
+  <ul class="styleLista">
+    <li *ngFor="let test of teste" class="listaNota">
+      <button class="botaoNota" (click)="testeee(test.id)" for="notaTitulo">
+        <div>
+          <span class="notaTitulo">{{test.titulo}}</span>
+        </div>
+        <div class="limitarDescricao">
+          <span class="notaDescricao">{{test.descricao}}</span>
+        </div>
+      </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,52 @@
+.listaNota {
+    width: 80%;
+    height: 60px;
+    padding: 0px 128px;
+    margin-bottom: .5rem;
+}
+
+.styleLista {
+    list-style: none;
+}
+
+.adicionarNota {
+    background-color: #0A3876;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.adicionarNota:hover {
+    background-color: #0c458f;
+}
+
+.adicionarNota:active {
+    background-color: #0b356d;
+}
+
+.botaoNota {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(234, 236, 67);
+}
+
+.notaTitulo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000 !important;
+    border-bottom: #000;
+}
+
+.notaDescricao {
+    font-size: 18px;
+    color: #000 !important;
+}
+
+.limitarDescricao {
+    width: 100% !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
